@@ -112,24 +112,26 @@ body {
     top: 55px;
     left: -60px;
     width: 240%;
-    background-color: rgb(52, 58, 64, 0.95);
+    background-color: #fff;
     opacity: 0;
     visibility: hidden;
     transition: all 0.6s ease-in-out;
+    border: 2px solid #eee;
 }
 
 .nav-item.menu .menu-links::before {
     content: '';
     position: absolute;
-    top: -8px;
+    top: -10px;
     left: 50%;
     height: 15px;
     width: 15px;
     transform: translateX(-50%) rotate(-45deg);
     border-bottom: 10px solid transparent;
     border-left: 10px solid transparent;
-    border-top: 10px solid #363636;
-    border-right: 10px solid #363636;
+    border-top: 10px solid #eee;
+    border-right: 10px solid #eee;
+    z-index: -1;
 }
 
 @media (max-width: 991px) {
@@ -147,7 +149,7 @@ body {
 } 
 
 .nav-item.menu .menu-links a {
-    color: #eee;
+    color: rgba(0, 0, 0, 0.4);
     font-weight: bold;
 }
 

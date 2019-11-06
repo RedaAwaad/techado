@@ -13,24 +13,6 @@ $(document).ready(function () {
             });
         }
     })
-    
-    //Show Dropdown Menu
-    // $('.nav-item.menu').on({
-    //     mouseenter: function () {
-    //         $('.menu-links').css({
-    //             top: '40px',
-    //             opacity: 1,
-    //             visibility: 'visible'
-    //         });
-    //     },
-        // mouseleave: function () {
-        //     $('.menu-links').css({
-        //         top: '55px',
-        //         opacity: 0,
-        //         visibility: 'hidden'
-        //     });
-        // }
-    // });
 
     //Transform Toggler Menu To X Mark When Click
     $(".navbar-toggler").on("click", function () {
